@@ -13,9 +13,16 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-    tetrismain.cpp
+    mainwindow.cpp \
+    tetrisgridview.cpp \
+    tetrisgrid.cpp
 
 HEADERS  += \
-    tetrismain.h
+    mainwindow.h \
+    view/tetrisgrid.h \
+    tetrisgridview.h \
+    tetrisgrid.h
 
-FORMS    +=
+FORMS    += \
+    mainwindow.ui \
+    tetrisgridview.ui
